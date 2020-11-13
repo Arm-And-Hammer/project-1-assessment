@@ -21,7 +21,7 @@ function init(){
 function render(){
     if (total >= 0) {
         totalNumber.innerHTML = `
-        <span class="green">+${total}</span>
+        <span>${total}</span>
         `
       } else {
         totalNumber.innerHTML = `
